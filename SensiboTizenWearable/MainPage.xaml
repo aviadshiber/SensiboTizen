@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c:CirclePage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:c="clr-namespace:Tizen.Wearable.CircularUI.Forms;assembly=Tizen.Wearable.CircularUI.Forms"
+             x:Class="SensiboTizenWearable.MainPage">
+  <c:CirclePage.Content>
+    <StackLayout>
+      <Label x:Name="label" Text="Sensibo Controller"
+          VerticalOptions="CenterAndExpand"
+          HorizontalOptions="CenterAndExpand" />
+            <!--<Slider x:Name="HappySlider" Maximum="10" Minimum="1" Value="5" ValueChanged="HappySlider_ValueChanged" ></Slider>-->
+            <Button x:Name="StateButton" Text="Loading state..." Clicked="Button_Clicked"  VerticalOptions="CenterAndExpand"
+          HorizontalOptions="CenterAndExpand"  BackgroundColor="Yellow" TextColor="Black"/>
+        </StackLayout>
+  </c:CirclePage.Content>
+</c:CirclePage>
